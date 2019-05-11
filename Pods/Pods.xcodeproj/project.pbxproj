@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00289C82F8FC73D85900964011627139 /* SwipeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1325DFA156D923AC85540F81DDEC249 /* SwipeView-dummy.m */; };
+		0D43FB3CF7D7D469334D5095EE4D0B29 /* SwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69AC2CCA9A3B8EA260EF597168068F48 /* SwipeView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C384E303593DF79FB81B45EA255E6034 /* Pods-Butterfly-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C176C53A3A9E095492A2ECE8B0D73A70 /* Pods-Butterfly-dummy.m */; };
+		EC839554BC427A929C81CBB30C6F2D8E /* SwipeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F7FE62A059185EFF074AA1038AB989 /* SwipeView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53585CA0398B46642C1B1FCB6B47FA74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A301841CCEAB66C4AF79D7B1323786F3;
+			remoteInfo = SwipeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2568B9B17B7DF0B43F816C0619EAF907 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		2D0C162F1194B8C69F3D8E55D17756C0 /* Pods-Butterfly-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Butterfly-frameworks.sh"; sourceTree = "<group>"; };
+		36BB45D838BC3D07C18B160A2FDA569F /* libSwipeView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwipeView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FDB457E0B35A651BAA6325B73B7BF67 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		5DA2072DDC1EF3D43BB4EC9A159988DA /* SwipeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeView.xcconfig; sourceTree = "<group>"; };
+		5FC7E6B0EE3870E3F2B775A34C4D7125 /* Pods-Butterfly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Butterfly.release.xcconfig"; sourceTree = "<group>"; };
+		6321966D6D555EEDE88EFDAC6016C38B /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		69AC2CCA9A3B8EA260EF597168068F48 /* SwipeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwipeView.m; path = SwipeView/SwipeView.m; sourceTree = "<group>"; };
+		72DFF4A51954AFD2C4B6D8598ED14D6E /* Pods-Butterfly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Butterfly.debug.xcconfig"; sourceTree = "<group>"; };
+		7F722C001ECC0C39AB632E4337A646EE /* Pods-Butterfly-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Butterfly-acknowledgements.plist"; sourceTree = "<group>"; };
+		91F7FE62A059185EFF074AA1038AB989 /* SwipeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwipeView.h; path = SwipeView/SwipeView.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		956B625FDF4A2CF3CD871890DDE5CA28 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		C176C53A3A9E095492A2ECE8B0D73A70 /* Pods-Butterfly-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Butterfly-dummy.m"; sourceTree = "<group>"; };
+		C757C4D93FB486FAB0D7359309683B5C /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		D1CAF75FB03189D0E21B954E43092244 /* libPods-Butterfly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Butterfly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1325DFA156D923AC85540F81DDEC249 /* SwipeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeView-dummy.m"; sourceTree = "<group>"; };
+		F25D310E6F9C1B10EA14B02B8C10F657 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		F66A721EFE4F086A41BF91C477CD3547 /* SwipeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeView-prefix.pch"; sourceTree = "<group>"; };
+		F9E4BB24992F81274949757BE4A47F8C /* Pods-Butterfly-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Butterfly-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA9D45F8177D281623EA6411218D6DDE /* Pods-Butterfly-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Butterfly-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47CC685FB2C608F2E26F35F41E27FAC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5198C1DF04DF40C4B5172B063B5BF79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001BC5449AEE0E09FEF7D3661D5C7F37 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AA1B89179243A2D4E9549A6D321EB586 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		0EDB9A785A64E00BACE0966879A0561B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F25D310E6F9C1B10EA14B02B8C10F657 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2284BFC927BF36701496ACE12E42066F /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				52D8535B991C627D9639F7DDF05A690F /* Frameworks */,
+				B80E43BED67E4EB90FBB9FE838B89867 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		27B933853C2E89BB710EAAE14758C9FD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB3E01EB4E562CC7B1483E4168D08CEC /* Pods-Butterfly */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		52D8535B991C627D9639F7DDF05A690F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FDB457E0B35A651BAA6325B73B7BF67 /* GoogleMaps.framework */,
+				2568B9B17B7DF0B43F816C0619EAF907 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F66D1F83E1253AE4881FB287FE5A714 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1CAF75FB03189D0E21B954E43092244 /* libPods-Butterfly.a */,
+				36BB45D838BC3D07C18B160A2FDA569F /* libSwipeView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				E1833AE73CA044C71F03C0D212759D74 /* Pods */,
+				6F66D1F83E1253AE4881FB287FE5A714 /* Products */,
+				27B933853C2E89BB710EAAE14758C9FD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		811C8F2F1CC1D0ED73819FD8995DCE85 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				001BC5449AEE0E09FEF7D3661D5C7F37 /* Base */,
+				2284BFC927BF36701496ACE12E42066F /* Maps */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		9CA10F621321D73C2B52A8C9F07FB3B3 /* SwipeView */ = {
+			isa = PBXGroup;
+			children = (
+				91F7FE62A059185EFF074AA1038AB989 /* SwipeView.h */,
+				69AC2CCA9A3B8EA260EF597168068F48 /* SwipeView.m */,
+				F181C5CFC4A429EF6D787384D2E3F082 /* Support Files */,
+			);
+			path = SwipeView;
+			sourceTree = "<group>";
+		};
+		A4C1955193CBFCEA58143C6F31267C00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				956B625FDF4A2CF3CD871890DDE5CA28 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AA1B89179243A2D4E9549A6D321EB586 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C757C4D93FB486FAB0D7359309683B5C /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB3E01EB4E562CC7B1483E4168D08CEC /* Pods-Butterfly */ = {
+			isa = PBXGroup;
+			children = (
+				F9E4BB24992F81274949757BE4A47F8C /* Pods-Butterfly-acknowledgements.markdown */,
+				7F722C001ECC0C39AB632E4337A646EE /* Pods-Butterfly-acknowledgements.plist */,
+				C176C53A3A9E095492A2ECE8B0D73A70 /* Pods-Butterfly-dummy.m */,
+				2D0C162F1194B8C69F3D8E55D17756C0 /* Pods-Butterfly-frameworks.sh */,
+				FA9D45F8177D281623EA6411218D6DDE /* Pods-Butterfly-resources.sh */,
+				72DFF4A51954AFD2C4B6D8598ED14D6E /* Pods-Butterfly.debug.xcconfig */,
+				5FC7E6B0EE3870E3F2B775A34C4D7125 /* Pods-Butterfly.release.xcconfig */,
+			);
+			name = "Pods-Butterfly";
+			path = "Target Support Files/Pods-Butterfly";
+			sourceTree = "<group>";
+		};
+		B80E43BED67E4EB90FBB9FE838B89867 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6321966D6D555EEDE88EFDAC6016C38B /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CCDAC5F371A44FC166E4BD28B9B7960C /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				0EDB9A785A64E00BACE0966879A0561B /* Frameworks */,
+				A4C1955193CBFCEA58143C6F31267C00 /* Resources */,
+			);
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		E1833AE73CA044C71F03C0D212759D74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				811C8F2F1CC1D0ED73819FD8995DCE85 /* GoogleMaps */,
+				CCDAC5F371A44FC166E4BD28B9B7960C /* GooglePlaces */,
+				9CA10F621321D73C2B52A8C9F07FB3B3 /* SwipeView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F181C5CFC4A429EF6D787384D2E3F082 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DA2072DDC1EF3D43BB4EC9A159988DA /* SwipeView.xcconfig */,
+				F1325DFA156D923AC85540F81DDEC249 /* SwipeView-dummy.m */,
+				F66A721EFE4F086A41BF91C477CD3547 /* SwipeView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwipeView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A36710B669901BECDDB71E5E975D3115 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC839554BC427A929C81CBB30C6F2D8E /* SwipeView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4D2A71331C11CBA56315566514EEA0E0 /* Pods-Butterfly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF817E33203263EC6C30950626850C6E /* Build configuration list for PBXNativeTarget "Pods-Butterfly" */;
+			buildPhases = (
+				B4779FDA18C359ACC4B6BCEC0BE0A484 /* Sources */,
+				B5198C1DF04DF40C4B5172B063B5BF79 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B24E0EC43F3F27219A53F7DF4851767 /* PBXTargetDependency */,
+			);
+			name = "Pods-Butterfly";
+			productName = "Pods-Butterfly";
+			productReference = D1CAF75FB03189D0E21B954E43092244 /* libPods-Butterfly.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A301841CCEAB66C4AF79D7B1323786F3 /* SwipeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2AF284849D8C5F137954DFEB3F1B87 /* Build configuration list for PBXNativeTarget "SwipeView" */;
+			buildPhases = (
+				59720B20484AF30299CF43A61AC0B833 /* Sources */,
+				47CC685FB2C608F2E26F35F41E27FAC0 /* Frameworks */,
+				A36710B669901BECDDB71E5E975D3115 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeView;
+			productName = SwipeView;
+			productReference = 36BB45D838BC3D07C18B160A2FDA569F /* libSwipeView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6F66D1F83E1253AE4881FB287FE5A714 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D2A71331C11CBA56315566514EEA0E0 /* Pods-Butterfly */,
+				A301841CCEAB66C4AF79D7B1323786F3 /* SwipeView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59720B20484AF30299CF43A61AC0B833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00289C82F8FC73D85900964011627139 /* SwipeView-dummy.m in Sources */,
+				0D43FB3CF7D7D469334D5095EE4D0B29 /* SwipeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4779FDA18C359ACC4B6BCEC0BE0A484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C384E303593DF79FB81B45EA255E6034 /* Pods-Butterfly-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B24E0EC43F3F27219A53F7DF4851767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwipeView;
+			target = A301841CCEAB66C4AF79D7B1323786F3 /* SwipeView */;
+			targetProxy = 53585CA0398B46642C1B1FCB6B47FA74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		485AFC06FD2BE45A5530D0DD9BD560B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DA2072DDC1EF3D43BB4EC9A159988DA /* SwipeView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeView/SwipeView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwipeView;
+				PRODUCT_NAME = SwipeView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FFEDA54D918C0338BA148F054A03004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72DFF4A51954AFD2C4B6D8598ED14D6E /* Pods-Butterfly.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8CB4BAEDD0924F239E08DBAE512BBA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FC7E6B0EE3870E3F2B775A34C4D7125 /* Pods-Butterfly.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDA2DC910C092B8193688AD2FF69DF3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DA2072DDC1EF3D43BB4EC9A159988DA /* SwipeView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeView/SwipeView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwipeView;
+				PRODUCT_NAME = SwipeView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EAC867385563488A6D8F1E74AC46B4 /* Debug */,
+				063198AB09B9CDB3A695432FC17AD8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2AF284849D8C5F137954DFEB3F1B87 /* Build configuration list for PBXNativeTarget "SwipeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA2DC910C092B8193688AD2FF69DF3B /* Debug */,
+				485AFC06FD2BE45A5530D0DD9BD560B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF817E33203263EC6C30950626850C6E /* Build configuration list for PBXNativeTarget "Pods-Butterfly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFEDA54D918C0338BA148F054A03004 /* Debug */,
+				8CB4BAEDD0924F239E08DBAE512BBA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
