@@ -196,8 +196,8 @@
 	//cell.backgroundView = [[UIView new] autorelease];
 	//cell.selectedBackgroundView = [[UIView new] autorelease];
 	
-	cell.title = cellData[@"title"];
-	cell.shortDescription = cellData[@"description"];
+	cell.title.text = cellData[@"title"];
+	cell.shortDescription.text = cellData[@"description"];
 	cell.imageV.image = [UIImage imageNamed:cellData[@"picture_name"]];
 
 	return cell;
