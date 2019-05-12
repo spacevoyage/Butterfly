@@ -11,6 +11,7 @@
 @import BubbleTransition;
 
 @interface BFDetailsViewController () <UIViewControllerTransitioningDelegate>
+@property (weak, nonatomic) IBOutlet UIButton *finishButton;
 @property (weak, nonatomic) IBOutlet UIButton *checkLocationButton;
 
 @property (strong, nonatomic) BubbleTransition *bubbleTransition;
@@ -62,7 +63,8 @@
 		[hud hideAnimated:YES];
 		if (self.currentStep >= [self.quest count])
 		{
-			[self performSegueWithIdentifier:@"finishSegue" sender:self];
+			self.checkLocationButton.hidden = YES;
+			self.finishButton.hidden = NO;
 		}
 		else
 		{
