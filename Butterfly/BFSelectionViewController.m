@@ -11,7 +11,7 @@
 #import "BFDetailsViewController.h"
 
 @interface BFSelectionViewController ()
-@property (nonatomic) NSArray *tableData;
+
 @end
 
 @implementation BFSelectionViewController : UITableViewController
@@ -20,50 +20,149 @@
     [super viewDidLoad];
 	
 	self.tableData = @[
-						   @{@"picture_name" : @"quest_art_rage_photo1",
+						   @{@"picture_name" : @"LOTR_fellows_5788",
 							 @"title" : @"Title1",
 							 @"description" : @"Description1",
-							 @"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+							 @"steps" : @[@{@"title" : @"RiddleTitle1",
+											@"locationLat" : @49.8416263,
+											@"locationLong" : @24.0017421,
+								 @"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"},
+										  @{@"title" : @"RiddleTitle2",
+											@"locationLat" : @49.8382205,
+											@"locationLong" : @24.0054061,
+											  @"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"},
+										  @{@"title" : @"RiddleTitle3",
+											@"locationLat" : @49.8418097,
+											@"locationLong" : @24.0137737,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"}]
 							 },
 						   @{@"picture_name" : @"quest_art_rage_photo1",
 							 @"title" : @"Title2",
 							 @"description" : @"Description2",
-							 @"riddle" : @"riddle2"
+							 @"steps" : @[@{@"title" : @"RiddleTitle1",
+											@"locationLat" : @49.8416263,
+											@"locationLong" : @24.0017421,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"},
+										  @{@"title" : @"RiddleTitle2",
+											@"locationLat" : @49.8382205,
+											@"locationLong" : @24.0054061,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"},
+										  @{@"title" : @"RiddleTitle3",
+											@"locationLat" : @49.8418097,
+											@"locationLong" : @24.0137737,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"}]
 							 },
-						   @{@"picture_name" : @"quest_art_rage_photo1",
+						   @{@"picture_name" : @"ac-origins-thick-skin-side-quest",
 							 @"title" : @"Title3",
 							 @"description" : @"Description3",
-							 @"riddle" : @"riddle3"
+							 @"steps" : @[@{@"title" : @"RiddleTitle1",
+											@"locationLat" : @49.8416263,
+											@"locationLong" : @24.0017421,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"},
+										  @{@"title" : @"RiddleTitle1",
+											@"locationLat" : @49.8382205,
+											@"locationLong" : @24.0054061,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"},
+										  @{@"title" : @"RiddleTitle1",
+											@"locationLat" : @49.8418097,
+											@"locationLong" : @24.0137737,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"}]
 							 },
-						   @{@"picture_name" : @"quest_art_rage_photo1",
+						   @{@"picture_name" : @"28161055",
 							 @"title" : @"Title4",
 							 @"description" : @"Description4",
-							 @"riddle" : @"riddle4"
+							 @"steps" : @[@{@"title" : @"RiddleTitle1",
+											@"locationLat" : @49.8416263,
+											@"locationLong" : @24.0017421,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"},
+										  @{@"title" : @"RiddleTitle1",
+											@"locationLat" : @49.8382205,
+											@"locationLong" : @24.0054061,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"},
+										  @{@"title" : @"RiddleTitle1",
+											@"locationLat" : @49.8418097,
+											@"locationLong" : @24.0137737,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"}]
 							 },
-						   @{@"picture_name" : @"quest_art_rage_photo1",
+						   @{@"picture_name" : @"Cables_Lviv",
 							 @"title" : @"Title5",
 							 @"description" : @"Description5",
-							 @"riddle" : @"riddle5"
+							 @"steps" : @[@{@"title" : @"RiddleTitle1",
+											@"locationLat" : @49.8416263,
+											@"locationLong" : @24.0017421,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"},
+										  @{@"title" : @"RiddleTitle1",
+											@"locationLat" : @49.8382205,
+											@"locationLong" : @24.0054061,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"},
+										  @{@"title" : @"RiddleTitle1",
+											@"locationLat" : @49.8418097,
+											@"locationLong" : @24.0137737,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"}]
 							 },
-						   @{@"picture_name" : @"quest_art_rage_photo1",
+						   @{@"picture_name" : @"lviivv",
 							 @"title" : @"Title6",
 							 @"description" : @"Description6",
-							 @"riddle" : @"riddle6"
+							 @"steps" : @[@{@"title" : @"RiddleTitle1",
+											@"locationLat" : @49.8416263,
+											@"locationLong" : @24.0017421,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"},
+										  @{@"title" : @"RiddleTitle1",
+											@"locationLat" : @49.8382205,
+											@"locationLong" : @24.0054061,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"},
+										  @{@"title" : @"RiddleTitle1",
+											@"locationLat" : @49.8418097,
+											@"locationLong" : @24.0137737,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"}]
 							 },
-						   @{@"picture_name" : @"quest_art_rage_photo1",
+						   @{@"picture_name" : @"lviv2",
 							 @"title" : @"Title7",
 							 @"description" : @"Description7",
-							 @"riddle" : @"riddle7"
+							 @"steps" : @[@{@"title" : @"RiddleTitle1",
+											@"locationLat" : @49.8416263,
+											@"locationLong" : @24.0017421,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"},
+										  @{@"title" : @"RiddleTitle1",
+											@"locationLat" : @49.8382205,
+											@"locationLong" : @24.0054061,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"},
+										  @{@"title" : @"RiddleTitle1",
+											@"locationLat" : @49.8418097,
+											@"locationLong" : @24.0137737,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"}]
 							 },
-						   @{@"picture_name" : @"quest_art_rage_photo1",
+						   @{@"picture_name" : @"lwow",
 							 @"title" : @"Title8",
 							 @"description" : @"Description8",
-							 @"riddle" : @"riddle8"
+							 @"steps" : @[@{@"title" : @"RiddleTitle1",
+											@"locationLat" : @49.8416263,
+											@"locationLong" : @24.0017421,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"},
+										  @{@"title" : @"RiddleTitle1",
+											@"locationLat" : @49.8382205,
+											@"locationLong" : @24.0054061,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"},
+										  @{@"title" : @"RiddleTitle1",
+											@"locationLat" : @49.8418097,
+											@"locationLong" : @24.0137737,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"}]
 							 },
-						   @{@"picture_name" : @"quest_art_rage_photo1",
+						   @{@"picture_name" : @"Львів. Різдво на ринкові площі.",
 							 @"title" : @"Title9",
 							 @"description" : @"Description9",
-							 @"riddle" : @"riddle9"
+							 @"steps" : @[@{@"title" : @"RiddleTitle1",
+											@"locationLat" : @49.8416263,
+											@"locationLong" : @24.0017421,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"},
+										  @{@"title" : @"RiddleTitle1",
+											@"locationLat" : @49.8382205,
+											@"locationLong" : @24.0054061,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"},
+										  @{@"title" : @"RiddleTitle1",
+											@"locationLat" : @49.8418097,
+											@"locationLong" : @24.0137737,
+											@"riddle" : @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"}]
 							 }];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -99,8 +198,7 @@
 	
 	cell.title = cellData[@"title"];
 	cell.shortDescription = cellData[@"description"];
-	[cell updateData];
-	
+	cell.imageV.image = [UIImage imageNamed:cellData[@"picture_name"]];
 
 	return cell;
 }
@@ -119,13 +217,13 @@
 {
 	[self.tableView deselectRowAtIndexPath:anIndexPath animated:YES];
 	NSInteger index = anIndexPath.row;
-	NSDictionary *quest = self.tableData[index];
+	NSDictionary *quest = self.tableData[index][@"steps"];
 	[self showDetails:quest];
 }
 
-- (void)showDetails:(NSDictionary *)aDetails
+- (void)showDetails:(NSArray *)aDetails
 {
-	BFDetailsViewController *detailsVC = [[BFDetailsViewController alloc] initWithQuest:aDetails];
+	BFDetailsViewController *detailsVC = [[BFDetailsViewController alloc] initWithQuest:aDetails step:1];
 	[self.navigationController pushViewController:detailsVC animated:NO];
 }
 

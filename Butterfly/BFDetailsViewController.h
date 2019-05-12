@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BFMapViewController.h"
 
 @interface BFDetailsViewController : UIViewController
 
-- (instancetype)initWithQuest:(NSDictionary *)aQuest;
+@property (nonatomic, weak) BFMapViewController *mapVC;
+- (instancetype)initWithQuest:(NSArray *)aQuest step:(NSInteger)aStep;
 
 @end
 

@@ -27,10 +27,4 @@ const NSUInteger kBFCellHeight = 79;
     // Configure the view for the selected state
 }
 
-- (void)updateData
-{
-	self.imageV.image = [UIImage imageNamed:@"LOTR_fellows_5788"];
-}
-
-
 @end

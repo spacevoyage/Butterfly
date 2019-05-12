@@ -11,6 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BFSelectionViewController : UITableViewController
+@property (nonatomic) NSArray *tableData;
 
 @end
 

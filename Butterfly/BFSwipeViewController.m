@@ -7,7 +7,9 @@
 //
 
 #import "BFSwipeViewController.h"
+#import "BFSelectionViewController.h"
 #import "SwipeView.h"
+#include <stdlib.h>
 
 @interface BFSwipeViewController ()
 
@@ -15,10 +17,33 @@
 
 @implementation BFSwipeViewController
 
+//- (void)pickQuests
+//{
+//	BFSelectionViewController *selectionVC = (BFSelectionViewController *)self.parentViewController;
+//	self.quests = selectionVC.tableData;
+//	self.pickedQuests = [NSMutableArray new];
+//	int remaining = 4;
+//
+//	if (self.quests.count >= remaining) {
+//		while (remaining > 0) {
+//			id quest = self.quests[arc4random_uniform(self.quests.count)];
+//
+//			if (![self.pickedQuests containsObject:quest]) {
+//				[self.pickedQuests addObject:quest];
+//				remaining--;
+//			}
+//		}
+//	}
+//}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-	SwipeView *view = self.view;
+	
+//	[self pickQuests];
+	SwipeView *view = (SwipeView *)self.view;
 	view.alignment = SwipeViewAlignmentCenter;
+	
+	
     // Do any additional setup after loading the view.
 }
 
@@ -28,13 +53,15 @@
 	//normally we'd use a backing array
 	//as shown in the basic iOS example
 	//but for this example we haven't bothered
-	return 3;
+	return 4;
 }
 
 - (UIView *)swipeView:(SwipeView *)swipeView viewForItemAtIndex:(NSInteger)index reusingView:(UIView *)view
 {
 	if (!view)
 	{
+//		BFItemViewController *itemVC = [[BFItemViewController alloc] initWithPictureName:self.pickedQuests[index][@"picture_name"] title:self.pickedQuests[index][@"title"] description:self.pickedQuests[index][@"description"]];
+//		return itemVC.view;
 		view = [[NSBundle mainBundle] loadNibNamed:@"ItemView" owner:self options:nil][0];
 	}
 	return view;

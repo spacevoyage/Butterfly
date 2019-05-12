@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface BFMapViewController : UIViewController
 
+- (void)putMarkerWithLat:(double)lattitude long:(double)longitute;
+- (void)drawLineFromLat:(double)fromLattitude fromLongitude:(double)fromLongitude toLattitude:(double)toLattitude toLongitude:(double)toLongitude;
+
 @end
 
 NS_ASSUME_NONNULL_END

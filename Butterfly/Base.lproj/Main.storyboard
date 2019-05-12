@@ -139,7 +139,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="Ppd-7f-47X" kind="embed" id="cVS-gL-JOQ"/>
+                                    <segue destination="Ppd-7f-47X" kind="embed" identifier="embedSegue" id="cVS-gL-JOQ"/>
                                 </connections>
                             </containerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xL4-OS-hhz">
@@ -154,9 +154,13 @@
                                         <integer key="value" value="15"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onCheckLocation:" destination="0Sm-j6-g0S" eventType="touchUpInside" id="Sig-Ok-o2g"/>
+                                    <segue destination="6R0-Xp-eb3" kind="custom" identifier="finishSegue" customClass="BFPerformSegue" id="V36-28-mTS"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Paq-TF-LFW">
-                                <rect key="frame" x="26" y="337" width="86" height="43"/>
+                                <rect key="frame" x="26" y="337" width="323" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="EWN-SQ-U2B"/>
                                 </constraints>
@@ -187,7 +191,7 @@
                                     <constraint firstAttribute="width" constant="323" id="9UI-gE-r0J"/>
                                     <constraint firstAttribute="height" constant="182" id="ZDX-5c-LEG"/>
                                 </constraints>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -196,7 +200,7 @@
                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="Paq-TF-LFW" firstAttribute="leading" secondItem="xL4-OS-hhz" secondAttribute="leading" id="14o-Q9-B8d"/>
-                            <constraint firstItem="BDe-Oc-uF9" firstAttribute="trailing" secondItem="Paq-TF-LFW" secondAttribute="trailing" constant="263" id="2Dl-FQ-3Oj"/>
+                            <constraint firstItem="BDe-Oc-uF9" firstAttribute="trailing" secondItem="Paq-TF-LFW" secondAttribute="trailing" constant="26" id="2Dl-FQ-3Oj"/>
                             <constraint firstItem="Ltl-pA-4OC" firstAttribute="leading" secondItem="BDe-Oc-uF9" secondAttribute="leading" constant="26" id="3Jf-iC-0XZ"/>
                             <constraint firstItem="oNk-to-aMO" firstAttribute="centerY" secondItem="GJD-18-CDJ" secondAttribute="centerY" id="6aD-OQ-gec"/>
                             <constraint firstItem="BDe-Oc-uF9" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="oNk-to-aMO" secondAttribute="trailing" symbolic="YES" id="8af-gq-nVk"/>
@@ -217,6 +221,7 @@
                     </view>
                     <modalFormSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <connections>
+                        <outlet property="checkLocationButton" destination="xL4-OS-hhz" id="PaD-P2-nyi"/>
                         <outlet property="questRiddle" destination="Ltl-pA-4OC" id="IN4-dp-WN8"/>
                         <outlet property="questTitle" destination="Paq-TF-LFW" id="21T-dW-dkh"/>
                     </connections>
@@ -239,7 +244,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Gs-oC-nur" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3060" y="372"/>
+            <point key="canvasLocation" x="3002" y="197"/>
         </scene>
         <!--Data Source-->
         <scene sceneID="6Ab-0t-dSj">
@@ -259,6 +264,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jXg-CV-Rlk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1439" y="-883"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="NKy-cq-djv">
+            <objects>
+                <viewController id="6R0-Xp-eb3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yda-sd-lti">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="dfe-YA-k7M"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lj3-Vd-a2R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3001" y="902"/>
         </scene>
     </scenes>
 </document>

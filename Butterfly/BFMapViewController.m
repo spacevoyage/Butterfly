@@ -7,6 +7,7 @@
 //
 
 #import "BFMapViewController.h"
+#import "BFSelectionViewController.h"
 #import <GoogleMaps/GoogleMaps.h>
 
 @interface BFMapViewController ()
@@ -28,42 +29,37 @@
 	self.view = mapView;
 	
 	// Creates a marker in the center of the map.
-	GMSMarker *marker0 = [[GMSMarker alloc] init];
-	marker0.position = CLLocationCoordinate2DMake(49.8416263,24.0017421);
-	marker0.title = @"Sydney";
-	marker0.snippet = @"Australia";
-	marker0.map = mapView;
+//	GMSMarker *marker0 = [[GMSMarker alloc] init];
+//	marker0.position = CLLocationCoordinate2DMake(49.8416263,24.0017421);
+//	marker0.title = @"Sydney";
+//	marker0.snippet = @"Australia";
+//	marker0.map = mapView;
 	
-	GMSMarker *marker1 = [[GMSMarker alloc] init];
-	marker1.position = CLLocationCoordinate2DMake(49.8384088,24.0017974);
-	marker1.title = @"Sydney";
-	marker1.snippet = @"Australia";
-	marker1.map = mapView;
-	
-	GMSMarker *marker2 = [[GMSMarker alloc] init];
-	marker2.position = CLLocationCoordinate2DMake(49.8382205,24.0054061);
-	marker2.title = @"Sydney";
-	marker2.snippet = @"Australia";
-	marker2.map = mapView;
-	
-	GMSMarker *marker3 = [[GMSMarker alloc] init];
-	marker3.position = CLLocationCoordinate2DMake(49.8446118,24.0068768);
-	marker3.title = @"Sydney";
-	marker3.snippet = @"Australia";
-	marker3.map = mapView;
-	
-	GMSMarker *marker4 = [[GMSMarker alloc] init];
-	marker4.position = CLLocationCoordinate2DMake(49.8418097,24.0137737);
-	marker4.title = @"Sydney";
-	marker4.snippet = @"Australia";
-	marker4.map = mapView;
 	
 	CLLocationCoordinate2D circleCenter = CLLocationCoordinate2DMake(49.842117, 24.004359);
 	GMSCircle *circ = [GMSCircle circleWithPosition:circleCenter
 											 radius:1000];
 	circ.strokeColor = [UIColor colorWithRed:245 green:166 blue:35 alpha:1];
-	circ.strokeWidth = 5;
+	circ.strokeWidth = 3;
 	circ.map = mapView;
+}
+
+- (void)putMarkerWithLat:(double)lattitude long:(double)longitute
+{
+	CLLocationCoordinate2D position = CLLocationCoordinate2DMake(lattitude, longitute);
+	GMSMarker *marker = [GMSMarker markerWithPosition:position];
+	marker.title = @"Position";
+	marker.appearAnimation = kGMSMarkerAnimationPop;
+	marker.map = (GMSMapView *)self.view;
+}
+
+- (void)drawLineFromLat:(double)fromLattitude fromLongitude:(double)fromLongitude toLattitude:(double)toLattitude toLongitude:(double)toLongitude
+{
+	GMSMutablePath *path = [GMSMutablePath path];
+	[path addCoordinate:CLLocationCoordinate2DMake(fromLattitude, fromLongitude)];
+	[path addCoordinate:CLLocationCoordinate2DMake(toLattitude, toLongitude)];
+	GMSPolyline *polyline = [GMSPolyline polylineWithPath:path];
+	polyline.map = (GMSMapView *)self.view;
 }
 
 /*
