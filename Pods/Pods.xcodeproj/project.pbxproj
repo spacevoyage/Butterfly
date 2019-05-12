@@ -3,59 +3,88 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00289C82F8FC73D85900964011627139 /* SwipeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1325DFA156D923AC85540F81DDEC249 /* SwipeView-dummy.m */; };
-		0D43FB3CF7D7D469334D5095EE4D0B29 /* SwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69AC2CCA9A3B8EA260EF597168068F48 /* SwipeView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C384E303593DF79FB81B45EA255E6034 /* Pods-Butterfly-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C176C53A3A9E095492A2ECE8B0D73A70 /* Pods-Butterfly-dummy.m */; };
-		EC839554BC427A929C81CBB30C6F2D8E /* SwipeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F7FE62A059185EFF074AA1038AB989 /* SwipeView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		122487364C5539D6497F9A5A0F8C7F6F /* SwipeView.h in Headers */ = {isa = PBXBuildFile; fileRef = D960495EDB28C9918F2BB4154B0FB5AB /* SwipeView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1309DD9D8A802BF989769E9EBD444EEE /* Pods-Butterfly-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C176C53A3A9E095492A2ECE8B0D73A70 /* Pods-Butterfly-dummy.m */; };
+		6A5C04BD17D4B8D06E13B49965702B91 /* SwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C9E20D3DBE2608F828072ECF50310 /* SwipeView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		75ABAFB5B98C572C2EC8BBD6BE2D1218 /* SwipeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4794BD78E7B16B03155C3CB5EB3CA7C3 /* SwipeView-dummy.m */; };
+		94E744F8018C62C107FA8E053CEA7BA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC138D45F2CFD9EAAAA38B7CF0A8250 /* CoreGraphics.framework */; };
+		B208DFD782346C6A1F400EAB2DF36455 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91494AC3C559D43BE60EB6298C7CB2D6 /* QuartzCore.framework */; };
+		BB4081015DA88477E27A91FC9C713B0C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A68EB456B193C87B345A3CDE30C3D6 /* MBProgressHUD.m */; };
+		BE08FC3CA35C9B85C0B51D945646E7E3 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1B72580EA287F14A6D1F67F5608B5E /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D669E6004423E44271C78E7FE5E5582B /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA5FC83E122D491609C73BEDCEF6E98 /* MBProgressHUD-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		53585CA0398B46642C1B1FCB6B47FA74 /* PBXContainerItemProxy */ = {
+		56BF2DF708DC4D6E088359BEC07DE691 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A301841CCEAB66C4AF79D7B1323786F3;
+			remoteGlobalIDString = 2414538BFC3D28DAB02D1CA38FDC6E16;
 			remoteInfo = SwipeView;
+		};
+		E80E8A9230C2B3DDC16ADFC468C5E6A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 175B076ED45EB1A3E40F58BA14036467;
+			remoteInfo = MBProgressHUD;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2568B9B17B7DF0B43F816C0619EAF907 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		1458492D29A0653A6D14F917101F92CF /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		2D0C162F1194B8C69F3D8E55D17756C0 /* Pods-Butterfly-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Butterfly-frameworks.sh"; sourceTree = "<group>"; };
-		36BB45D838BC3D07C18B160A2FDA569F /* libSwipeView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwipeView.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FDB457E0B35A651BAA6325B73B7BF67 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
-		5DA2072DDC1EF3D43BB4EC9A159988DA /* SwipeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeView.xcconfig; sourceTree = "<group>"; };
+		2F101FE63F34A04AAD729F4C0FA77B5B /* libSwipeView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSwipeView.a; path = libSwipeView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A5B654FBB73B2164CFAA708EA2D3DF /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		313581680D2C2AC190F9410E40779F3B /* SwipeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeView-prefix.pch"; sourceTree = "<group>"; };
+		34A46CC67A548846654ACE5595AEC12C /* SwipeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeView.xcconfig; sourceTree = "<group>"; };
+		3C36ADA95FB2FF5CAAF89AC2821E1EAF /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		3CA5FC83E122D491609C73BEDCEF6E98 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		445A56683F9FB87CAC60DCB35BC8F02F /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		4794BD78E7B16B03155C3CB5EB3CA7C3 /* SwipeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeView-dummy.m"; sourceTree = "<group>"; };
+		4989AD8C775D7F5794D7F5AC1C6498D2 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		5A7C9E20D3DBE2608F828072ECF50310 /* SwipeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwipeView.m; path = SwipeView/SwipeView.m; sourceTree = "<group>"; };
 		5FC7E6B0EE3870E3F2B775A34C4D7125 /* Pods-Butterfly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Butterfly.release.xcconfig"; sourceTree = "<group>"; };
-		6321966D6D555EEDE88EFDAC6016C38B /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
-		69AC2CCA9A3B8EA260EF597168068F48 /* SwipeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwipeView.m; path = SwipeView/SwipeView.m; sourceTree = "<group>"; };
+		66E1DD9362D95C03B05206C1086E7955 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
 		72DFF4A51954AFD2C4B6D8598ED14D6E /* Pods-Butterfly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Butterfly.debug.xcconfig"; sourceTree = "<group>"; };
 		7F722C001ECC0C39AB632E4337A646EE /* Pods-Butterfly-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Butterfly-acknowledgements.plist"; sourceTree = "<group>"; };
-		91F7FE62A059185EFF074AA1038AB989 /* SwipeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwipeView.h; path = SwipeView/SwipeView.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		956B625FDF4A2CF3CD871890DDE5CA28 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		91494AC3C559D43BE60EB6298C7CB2D6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E4E6B40A7E861EAD4135E5582EC5CA3 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		A6A68EB456B193C87B345A3CDE30C3D6 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		AEC138D45F2CFD9EAAAA38B7CF0A8250 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		B7A62F9EA3349DFA772BC81211985B15 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		C176C53A3A9E095492A2ECE8B0D73A70 /* Pods-Butterfly-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Butterfly-dummy.m"; sourceTree = "<group>"; };
-		C757C4D93FB486FAB0D7359309683B5C /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
-		D1CAF75FB03189D0E21B954E43092244 /* libPods-Butterfly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Butterfly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1325DFA156D923AC85540F81DDEC249 /* SwipeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeView-dummy.m"; sourceTree = "<group>"; };
-		F25D310E6F9C1B10EA14B02B8C10F657 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
-		F66A721EFE4F086A41BF91C477CD3547 /* SwipeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeView-prefix.pch"; sourceTree = "<group>"; };
+		C20F844158C560EF1848E9F695D81135 /* libPods-Butterfly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Butterfly.a"; path = "libPods-Butterfly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1B72580EA287F14A6D1F67F5608B5E /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		D960495EDB28C9918F2BB4154B0FB5AB /* SwipeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwipeView.h; path = SwipeView/SwipeView.h; sourceTree = "<group>"; };
+		DA37BB9538CEF9E7E0D5E245DBC09C38 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMBProgressHUD.a; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E4BB24992F81274949757BE4A47F8C /* Pods-Butterfly-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Butterfly-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FA9D45F8177D281623EA6411218D6DDE /* Pods-Butterfly-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Butterfly-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		47CC685FB2C608F2E26F35F41E27FAC0 /* Frameworks */ = {
+		0D7CC91E01FED3BB0207CE5BD74A8C59 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5198C1DF04DF40C4B5172B063B5BF79 /* Frameworks */ = {
+		54A320E60D147224E3BED6F99F4B437C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E744F8018C62C107FA8E053CEA7BA1 /* CoreGraphics.framework in Frameworks */,
+				B208DFD782346C6A1F400EAB2DF36455 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9CE4976FFAE43620BA779246C2A1169 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,36 +94,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		001BC5449AEE0E09FEF7D3661D5C7F37 /* Base */ = {
+		01F9278D64D0A052DD1D9128362D9491 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AA1B89179243A2D4E9549A6D321EB586 /* Frameworks */,
+				9E4E6B40A7E861EAD4135E5582EC5CA3 /* GooglePlaces.bundle */,
 			);
-			name = Base;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		0EDB9A785A64E00BACE0966879A0561B /* Frameworks */ = {
+		03A8AFBB5E8D7821C7C13DDB74CE4A7B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F25D310E6F9C1B10EA14B02B8C10F657 /* GooglePlaces.framework */,
+				DA37BB9538CEF9E7E0D5E245DBC09C38 /* libMBProgressHUD.a */,
+				C20F844158C560EF1848E9F695D81135 /* libPods-Butterfly.a */,
+				2F101FE63F34A04AAD729F4C0FA77B5B /* libSwipeView.a */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+		11685B6F2A157011C80200090D08D317 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				AEC138D45F2CFD9EAAAA38B7CF0A8250 /* CoreGraphics.framework */,
+				91494AC3C559D43BE60EB6298C7CB2D6 /* QuartzCore.framework */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2284BFC927BF36701496ACE12E42066F /* Maps */ = {
-			isa = PBXGroup;
-			children = (
-				52D8535B991C627D9639F7DDF05A690F /* Frameworks */,
-				B80E43BED67E4EB90FBB9FE838B89867 /* Resources */,
-			);
-			name = Maps;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		27B933853C2E89BB710EAAE14758C9FD /* Targets Support Files */ = {
@@ -105,68 +129,108 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		52D8535B991C627D9639F7DDF05A690F /* Frameworks */ = {
+		3498EDFD1EBB88125C387A7D6620AF70 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				4FDB457E0B35A651BAA6325B73B7BF67 /* GoogleMaps.framework */,
-				2568B9B17B7DF0B43F816C0619EAF907 /* GoogleMapsCore.framework */,
+				95A08750559B682AC89AE2EE2283B20E /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		3628BF9E53D8280606DA2707075B9067 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				FEE5866D9F41492419FA58387DC391BB /* Frameworks */,
+				01F9278D64D0A052DD1D9128362D9491 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		3EE9AE763CA50B3852B8CFE5CD0638F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66E1DD9362D95C03B05206C1086E7955 /* MBProgressHUD.xcconfig */,
+				3CA5FC83E122D491609C73BEDCEF6E98 /* MBProgressHUD-dummy.m */,
+				4989AD8C775D7F5794D7F5AC1C6498D2 /* MBProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11685B6F2A157011C80200090D08D317 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6F66D1F83E1253AE4881FB287FE5A714 /* Products */ = {
+		4FC830638A6F7835D8935F6A34AE642D /* Maps */ = {
 			isa = PBXGroup;
 			children = (
-				D1CAF75FB03189D0E21B954E43092244 /* libPods-Butterfly.a */,
-				36BB45D838BC3D07C18B160A2FDA569F /* libSwipeView.a */,
+				7151773ED11833AA96B30B96F3C52510 /* Frameworks */,
+				99DB442C1D7098FF762C7C9840624539 /* Resources */,
 			);
-			name = Products;
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		7151773ED11833AA96B30B96F3C52510 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1458492D29A0653A6D14F917101F92CF /* GoogleMaps.framework */,
+				3C36ADA95FB2FF5CAAF89AC2821E1EAF /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76C0DB6FF4BA079B34581EAD30CEC721 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34A46CC67A548846654ACE5595AEC12C /* SwipeView.xcconfig */,
+				4794BD78E7B16B03155C3CB5EB3CA7C3 /* SwipeView-dummy.m */,
+				313581680D2C2AC190F9410E40779F3B /* SwipeView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwipeView";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				E1833AE73CA044C71F03C0D212759D74 /* Pods */,
-				6F66D1F83E1253AE4881FB287FE5A714 /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				D2AA19D3725C727FCA8E1EF7A2C58BF4 /* Pods */,
+				03A8AFBB5E8D7821C7C13DDB74CE4A7B /* Products */,
 				27B933853C2E89BB710EAAE14758C9FD /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		811C8F2F1CC1D0ED73819FD8995DCE85 /* GoogleMaps */ = {
+		95A08750559B682AC89AE2EE2283B20E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				001BC5449AEE0E09FEF7D3661D5C7F37 /* Base */,
-				2284BFC927BF36701496ACE12E42066F /* Maps */,
+				30A5B654FBB73B2164CFAA708EA2D3DF /* GoogleMapsBase.framework */,
 			);
-			path = GoogleMaps;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9CA10F621321D73C2B52A8C9F07FB3B3 /* SwipeView */ = {
+		99DB442C1D7098FF762C7C9840624539 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				91F7FE62A059185EFF074AA1038AB989 /* SwipeView.h */,
-				69AC2CCA9A3B8EA260EF597168068F48 /* SwipeView.m */,
-				F181C5CFC4A429EF6D787384D2E3F082 /* Support Files */,
-			);
-			path = SwipeView;
-			sourceTree = "<group>";
-		};
-		A4C1955193CBFCEA58143C6F31267C00 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				956B625FDF4A2CF3CD871890DDE5CA28 /* GooglePlaces.bundle */,
+				B7A62F9EA3349DFA772BC81211985B15 /* GoogleMaps.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		AA1B89179243A2D4E9549A6D321EB586 /* Frameworks */ = {
+		A1EB58EE154BDEB5D2EB7EE8F63B72CE /* SwipeView */ = {
 			isa = PBXGroup;
 			children = (
-				C757C4D93FB486FAB0D7359309683B5C /* GoogleMapsBase.framework */,
+				D960495EDB28C9918F2BB4154B0FB5AB /* SwipeView.h */,
+				5A7C9E20D3DBE2608F828072ECF50310 /* SwipeView.m */,
+				76C0DB6FF4BA079B34581EAD30CEC721 /* Support Files */,
 			);
-			name = Frameworks;
+			name = SwipeView;
+			path = SwipeView;
 			sourceTree = "<group>";
 		};
 		AB3E01EB4E562CC7B1483E4168D08CEC /* Pods-Butterfly */ = {
@@ -184,82 +248,92 @@
 			path = "Target Support Files/Pods-Butterfly";
 			sourceTree = "<group>";
 		};
-		B80E43BED67E4EB90FBB9FE838B89867 /* Resources */ = {
+		AB5A1594EA12FFF30153ADA862AE79F8 /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
-				6321966D6D555EEDE88EFDAC6016C38B /* GoogleMaps.bundle */,
+				3498EDFD1EBB88125C387A7D6620AF70 /* Base */,
+				4FC830638A6F7835D8935F6A34AE642D /* Maps */,
 			);
-			name = Resources;
+			name = GoogleMaps;
+			path = GoogleMaps;
 			sourceTree = "<group>";
 		};
-		CCDAC5F371A44FC166E4BD28B9B7960C /* GooglePlaces */ = {
+		C58D5E82B5E14C92E252C38D2E380702 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				0EDB9A785A64E00BACE0966879A0561B /* Frameworks */,
-				A4C1955193CBFCEA58143C6F31267C00 /* Resources */,
+				CA1B72580EA287F14A6D1F67F5608B5E /* MBProgressHUD.h */,
+				A6A68EB456B193C87B345A3CDE30C3D6 /* MBProgressHUD.m */,
+				3EE9AE763CA50B3852B8CFE5CD0638F7 /* Support Files */,
 			);
-			path = GooglePlaces;
+			name = MBProgressHUD;
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
-		E1833AE73CA044C71F03C0D212759D74 /* Pods */ = {
+		D2AA19D3725C727FCA8E1EF7A2C58BF4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				811C8F2F1CC1D0ED73819FD8995DCE85 /* GoogleMaps */,
-				CCDAC5F371A44FC166E4BD28B9B7960C /* GooglePlaces */,
-				9CA10F621321D73C2B52A8C9F07FB3B3 /* SwipeView */,
+				AB5A1594EA12FFF30153ADA862AE79F8 /* GoogleMaps */,
+				3628BF9E53D8280606DA2707075B9067 /* GooglePlaces */,
+				C58D5E82B5E14C92E252C38D2E380702 /* MBProgressHUD */,
+				A1EB58EE154BDEB5D2EB7EE8F63B72CE /* SwipeView */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		F181C5CFC4A429EF6D787384D2E3F082 /* Support Files */ = {
+		FEE5866D9F41492419FA58387DC391BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5DA2072DDC1EF3D43BB4EC9A159988DA /* SwipeView.xcconfig */,
-				F1325DFA156D923AC85540F81DDEC249 /* SwipeView-dummy.m */,
-				F66A721EFE4F086A41BF91C477CD3547 /* SwipeView-prefix.pch */,
+				445A56683F9FB87CAC60DCB35BC8F02F /* GooglePlaces.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SwipeView";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A36710B669901BECDDB71E5E975D3115 /* Headers */ = {
+		19EB8DC6B087069EA56FCF642511704C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC839554BC427A929C81CBB30C6F2D8E /* SwipeView.h in Headers */,
+				122487364C5539D6497F9A5A0F8C7F6F /* SwipeView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC33D369E9A80BFCC07EAB513251186 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE08FC3CA35C9B85C0B51D945646E7E3 /* MBProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4D2A71331C11CBA56315566514EEA0E0 /* Pods-Butterfly */ = {
+		175B076ED45EB1A3E40F58BA14036467 /* MBProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF817E33203263EC6C30950626850C6E /* Build configuration list for PBXNativeTarget "Pods-Butterfly" */;
+			buildConfigurationList = 7C66CB3E04875BC1C255326C7ADB2D78 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
 			buildPhases = (
-				B4779FDA18C359ACC4B6BCEC0BE0A484 /* Sources */,
-				B5198C1DF04DF40C4B5172B063B5BF79 /* Frameworks */,
+				F8A85461B9C4DE8B6DF401D993570773 /* Sources */,
+				54A320E60D147224E3BED6F99F4B437C /* Frameworks */,
+				EFC33D369E9A80BFCC07EAB513251186 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0B24E0EC43F3F27219A53F7DF4851767 /* PBXTargetDependency */,
 			);
-			name = "Pods-Butterfly";
-			productName = "Pods-Butterfly";
-			productReference = D1CAF75FB03189D0E21B954E43092244 /* libPods-Butterfly.a */;
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = DA37BB9538CEF9E7E0D5E245DBC09C38 /* libMBProgressHUD.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		A301841CCEAB66C4AF79D7B1323786F3 /* SwipeView */ = {
+		2414538BFC3D28DAB02D1CA38FDC6E16 /* SwipeView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD2AF284849D8C5F137954DFEB3F1B87 /* Build configuration list for PBXNativeTarget "SwipeView" */;
+			buildConfigurationList = CE5309D5DEDE37E3A87446BA8F06EB99 /* Build configuration list for PBXNativeTarget "SwipeView" */;
 			buildPhases = (
-				59720B20484AF30299CF43A61AC0B833 /* Sources */,
-				47CC685FB2C608F2E26F35F41E27FAC0 /* Frameworks */,
-				A36710B669901BECDDB71E5E975D3115 /* Headers */,
+				FAEAFCDCE7B9720909906774CFFA64DB /* Sources */,
+				E9CE4976FFAE43620BA779246C2A1169 /* Frameworks */,
+				19EB8DC6B087069EA56FCF642511704C /* Headers */,
 			);
 			buildRules = (
 			);
@@ -267,7 +341,25 @@
 			);
 			name = SwipeView;
 			productName = SwipeView;
-			productReference = 36BB45D838BC3D07C18B160A2FDA569F /* libSwipeView.a */;
+			productReference = 2F101FE63F34A04AAD729F4C0FA77B5B /* libSwipeView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		695CD0B1F5C6E49B81AFDB683B2E957E /* Pods-Butterfly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97789D07960F1B2C9C518C00F3CD54A5 /* Build configuration list for PBXNativeTarget "Pods-Butterfly" */;
+			buildPhases = (
+				7D59F2C5D541B2618472E1D6ED7D2F93 /* Sources */,
+				0D7CC91E01FED3BB0207CE5BD74A8C59 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56F015B024B36B89F880D2647F54FB6C /* PBXTargetDependency */,
+				F28E373D805FEBFD718E69935FE16C30 /* PBXTargetDependency */,
+			);
+			name = "Pods-Butterfly";
+			productName = "Pods-Butterfly";
+			productReference = C20F844158C560EF1848E9F695D81135 /* libPods-Butterfly.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -277,7 +369,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -287,42 +379,58 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 6F66D1F83E1253AE4881FB287FE5A714 /* Products */;
+			productRefGroup = 03A8AFBB5E8D7821C7C13DDB74CE4A7B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D2A71331C11CBA56315566514EEA0E0 /* Pods-Butterfly */,
-				A301841CCEAB66C4AF79D7B1323786F3 /* SwipeView */,
+				175B076ED45EB1A3E40F58BA14036467 /* MBProgressHUD */,
+				695CD0B1F5C6E49B81AFDB683B2E957E /* Pods-Butterfly */,
+				2414538BFC3D28DAB02D1CA38FDC6E16 /* SwipeView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		59720B20484AF30299CF43A61AC0B833 /* Sources */ = {
+		7D59F2C5D541B2618472E1D6ED7D2F93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00289C82F8FC73D85900964011627139 /* SwipeView-dummy.m in Sources */,
-				0D43FB3CF7D7D469334D5095EE4D0B29 /* SwipeView.m in Sources */,
+				1309DD9D8A802BF989769E9EBD444EEE /* Pods-Butterfly-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4779FDA18C359ACC4B6BCEC0BE0A484 /* Sources */ = {
+		F8A85461B9C4DE8B6DF401D993570773 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C384E303593DF79FB81B45EA255E6034 /* Pods-Butterfly-dummy.m in Sources */,
+				D669E6004423E44271C78E7FE5E5582B /* MBProgressHUD-dummy.m in Sources */,
+				BB4081015DA88477E27A91FC9C713B0C /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEAFCDCE7B9720909906774CFFA64DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75ABAFB5B98C572C2EC8BBD6BE2D1218 /* SwipeView-dummy.m in Sources */,
+				6A5C04BD17D4B8D06E13B49965702B91 /* SwipeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0B24E0EC43F3F27219A53F7DF4851767 /* PBXTargetDependency */ = {
+		56F015B024B36B89F880D2647F54FB6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 175B076ED45EB1A3E40F58BA14036467 /* MBProgressHUD */;
+			targetProxy = E80E8A9230C2B3DDC16ADFC468C5E6A1 /* PBXContainerItemProxy */;
+		};
+		F28E373D805FEBFD718E69935FE16C30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwipeView;
-			target = A301841CCEAB66C4AF79D7B1323786F3 /* SwipeView */;
-			targetProxy = 53585CA0398B46642C1B1FCB6B47FA74 /* PBXContainerItemProxy */;
+			target = 2414538BFC3D28DAB02D1CA38FDC6E16 /* SwipeView */;
+			targetProxy = 56BF2DF708DC4D6E088359BEC07DE691 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -385,9 +493,32 @@
 			};
 			name = Release;
 		};
-		485AFC06FD2BE45A5530D0DD9BD560B7 /* Release */ = {
+		32D06DD238157872C1FD4209EC6FE1EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DA2072DDC1EF3D43BB4EC9A159988DA /* SwipeView.xcconfig */;
+			baseConfigurationReference = 66E1DD9362D95C03B05206C1086E7955 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E4FC75B751938E971BBB0C21817B65F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A46CC67A548846654ACE5595AEC12C /* SwipeView.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -395,7 +526,31 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/SwipeView/SwipeView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwipeView;
+				PRODUCT_NAME = SwipeView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DD8B7FAA420C5B8D4082D3BF28404BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A46CC67A548846654ACE5595AEC12C /* SwipeView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeView/SwipeView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -409,28 +564,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		7FFEDA54D918C0338BA148F054A03004 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72DFF4A51954AFD2C4B6D8598ED14D6E /* Pods-Butterfly.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -495,7 +628,31 @@
 			};
 			name = Debug;
 		};
-		8CB4BAEDD0924F239E08DBAE512BBA0D /* Release */ = {
+		BA57C94C5041E2915047B48439EE1B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E1DD9362D95C03B05206C1086E7955 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF762967A7A7590C89DEFE0F4356B7DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5FC7E6B0EE3870E3F2B775A34C4D7125 /* Pods-Butterfly.release.xcconfig */;
 			buildSettings = {
@@ -518,26 +675,24 @@
 			};
 			name = Release;
 		};
-		CDA2DC910C092B8193688AD2FF69DF3B /* Debug */ = {
+		F2E2ED80A36326515EBBE1DAD98C4B49 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DA2072DDC1EF3D43BB4EC9A159988DA /* SwipeView.xcconfig */;
+			baseConfigurationReference = 72DFF4A51954AFD2C4B6D8598ED14D6E /* Pods-Butterfly.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SwipeView/SwipeView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = SwipeView;
-				PRODUCT_NAME = SwipeView;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -554,20 +709,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD2AF284849D8C5F137954DFEB3F1B87 /* Build configuration list for PBXNativeTarget "SwipeView" */ = {
+		7C66CB3E04875BC1C255326C7ADB2D78 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDA2DC910C092B8193688AD2FF69DF3B /* Debug */,
-				485AFC06FD2BE45A5530D0DD9BD560B7 /* Release */,
+				32D06DD238157872C1FD4209EC6FE1EF /* Debug */,
+				BA57C94C5041E2915047B48439EE1B7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF817E33203263EC6C30950626850C6E /* Build configuration list for PBXNativeTarget "Pods-Butterfly" */ = {
+		97789D07960F1B2C9C518C00F3CD54A5 /* Build configuration list for PBXNativeTarget "Pods-Butterfly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FFEDA54D918C0338BA148F054A03004 /* Debug */,
-				8CB4BAEDD0924F239E08DBAE512BBA0D /* Release */,
+				F2E2ED80A36326515EBBE1DAD98C4B49 /* Debug */,
+				EF762967A7A7590C89DEFE0F4356B7DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE5309D5DEDE37E3A87446BA8F06EB99 /* Build configuration list for PBXNativeTarget "SwipeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E4FC75B751938E971BBB0C21817B65F /* Debug */,
+				6DD8B7FAA420C5B8D4082D3BF28404BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

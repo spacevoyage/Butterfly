@@ -61,6 +61,8 @@
 	CLLocationCoordinate2D circleCenter = CLLocationCoordinate2DMake(49.842117, 24.004359);
 	GMSCircle *circ = [GMSCircle circleWithPosition:circleCenter
 											 radius:1000];
+	circ.strokeColor = [UIColor colorWithRed:245 green:166 blue:35 alpha:1];
+	circ.strokeWidth = 5;
 	circ.map = mapView;
 }
 

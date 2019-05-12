@@ -10,13 +10,33 @@
 
 @interface BFDetailsViewController ()
 
+@property (weak, nonatomic) IBOutlet UITextView *questRiddle;
+@property (weak, nonatomic) IBOutlet UILabel *questTitle;
+@property (nonatomic) NSDictionary *quest;
 @end
 
 @implementation BFDetailsViewController
 
-- (void)viewDidLoad {
-	[super viewDidLoad];
+- (instancetype)initWithQuest:(NSDictionary *)aQuest
+{
+	UIStoryboard*  sb = [UIStoryboard storyboardWithName:@"Main"
+												  bundle:nil];
+	self = [sb instantiateViewControllerWithIdentifier:@"BFDetailsViewController"];
 	
+	if (self != nil)
+	{
+		_quest = aQuest;
+	}
+	
+	return self;
+}
+
+
+- (void)viewDidLoad
+{
+	[super viewDidLoad];
+	self.questTitle.text = self.quest[@"title"];
+	self.questRiddle.text = self.quest[@"riddle"];
 }
 
 

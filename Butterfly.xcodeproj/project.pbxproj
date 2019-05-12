@@ -21,6 +21,8 @@
 		C996B38F22874B4000ACDB70 /* BFSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C996B38E22874B4000ACDB70 /* BFSwipeViewController.m */; };
 		C996B39322875C9300ACDB70 /* ItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C996B39222875C9300ACDB70 /* ItemView.xib */; };
 		C996B3962287760D00ACDB70 /* BFSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C996B3952287760D00ACDB70 /* BFSplitViewController.m */; };
+		C996B399228785E300ACDB70 /* BFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C996B398228785E300ACDB70 /* BFTableViewCell.m */; };
+		C996B39B22878B4400ACDB70 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C996B39A22878B4400ACDB70 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,9 @@
 		C996B39222875C9300ACDB70 /* ItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemView.xib; sourceTree = "<group>"; };
 		C996B3942287760D00ACDB70 /* BFSplitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFSplitViewController.h; sourceTree = "<group>"; };
 		C996B3952287760D00ACDB70 /* BFSplitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFSplitViewController.m; sourceTree = "<group>"; };
+		C996B397228785E300ACDB70 /* BFTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFTableViewCell.h; sourceTree = "<group>"; };
+		C996B398228785E300ACDB70 /* BFTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFTableViewCell.m; sourceTree = "<group>"; };
+		C996B39A22878B4400ACDB70 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,9 @@
 				C996B38E22874B4000ACDB70 /* BFSwipeViewController.m */,
 				C996B3942287760D00ACDB70 /* BFSplitViewController.h */,
 				C996B3952287760D00ACDB70 /* BFSplitViewController.m */,
+				C996B397228785E300ACDB70 /* BFTableViewCell.h */,
+				C996B398228785E300ACDB70 /* BFTableViewCell.m */,
+				C996B39A22878B4400ACDB70 /* TableViewCell.xib */,
 			);
 			path = Butterfly;
 			sourceTree = "<group>";
@@ -188,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C996B37122871F3D00ACDB70 /* LaunchScreen.storyboard in Resources */,
+				C996B39B22878B4400ACDB70 /* TableViewCell.xib in Resources */,
 				C996B36E22871F3D00ACDB70 /* Assets.xcassets in Resources */,
 				C996B36C22871F3D00ACDB70 /* Main.storyboard in Resources */,
 				C996B39322875C9300ACDB70 /* ItemView.xib in Resources */,
@@ -249,6 +258,7 @@
 				C996B380228724B600ACDB70 /* BFDetailsViewController.m in Sources */,
 				C996B36622871F3D00ACDB70 /* AppDelegate.m in Sources */,
 				C996B38622872D3100ACDB70 /* BFMapView.m in Sources */,
+				C996B399228785E300ACDB70 /* BFTableViewCell.m in Sources */,
 				C996B38322872BDF00ACDB70 /* BFMapViewController.m in Sources */,
 				C996B37E228724A400ACDB70 /* BFSelectionViewController.m in Sources */,
 			);

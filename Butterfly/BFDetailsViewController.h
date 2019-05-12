@@ -10,6 +10,7 @@
 
 @interface BFDetailsViewController : UIViewController
 
+- (instancetype)initWithQuest:(NSDictionary *)aQuest;
 
 @end
 
