@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Butterfly/Pods-Butterfly-frameworks.sh
+${BUILT_PRODUCTS_DIR}/BubbleTransition/BubbleTransition.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/SwipeView/SwipeView.framework
