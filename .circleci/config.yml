@@ -20,7 +20,10 @@ jobs:
 
       - run:
           name: Install ruby
-          command: brew install ruby && brew link --overwrite ruby
+          command: brew install ruby
+      - run:
+          name: Link
+          command: brew link --overwrite ruby
       # Install CocoaPods
       - run:
           name: Install CocoaPods
