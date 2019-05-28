@@ -18,6 +18,9 @@ jobs:
           name: Set Ruby Version
           command:  echo "ruby-2.4" > ~/.ruby-version
 
+      - run:
+          name: Install ruby
+          command: brew install ruby && brew link --overwrite ruby
       # Install CocoaPods
       - run:
           name: Install CocoaPods
